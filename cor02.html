@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        *{ /*Configuração globas */
+        height: 100%;
+    }
+        body{
+            /* background-image: linear-gradient(to bottom(aqui vc escolhe a direção em que o degrade acontece),+ Cores para criar degradê*/
+
+            /*background-image: linear-gradient(to bottom, #5656CD, #8E39B3, #C92E8C,#EA4551,#FEC969 );*/
+
+            /* 45deg 45 graus na direção do degrade */
+
+            /*background-image: linear-gradient(45deg, #5656CD, #8E39B3, #C92E8C,#EA4551,#FEC969 );*/
+            
+            /*background-image: radial-gradient(circle, degrade em circulo* poderia ser (right na posição mudaria para circular para direita/
+
+            /*background-image: radial-gradient(circle, #5656CD, #8E39B3, #C92E8C,#EA4551,#FEC969 );*/
+            
+            /*background-image: linear-gradient(right,right na posição mudaria para em linhas para direita*/
+            background-image: linear-gradient( to right, #5656CD, #8E39B3, #C92E8C,#EA4551,#FEC969 );
+            
+            background-attachment: fixed; /*background-attachment: fixed; Trava tela para não ter rolagens*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+</html>
